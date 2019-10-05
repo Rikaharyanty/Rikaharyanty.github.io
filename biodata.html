@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-{
+* {
   box-sizing: border-box;
 }
 
@@ -22,8 +22,8 @@ header {
 }
 
 nav {
-  float: right;
-  width: 33%;
+  float: left;
+  width: 35%;
   height: 900px; 
   background:#F08080;
   padding: 20px;
@@ -35,9 +35,9 @@ nav ul {
 }
 
 article {
-  float: right;
+  float: left;
   padding: 20px;
-  width: 67%;
+  width: 65%;
   background-color:#FFE4E1;
   height: 900px;
 }
@@ -57,8 +57,8 @@ footer {
 
 @media (max-width: 600px) {
   nav, article {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
   }
 }
 </style>
@@ -72,70 +72,82 @@ footer {
 <section>
   <nav>
     <ul>
-      <li><a href="index.html"><img src = "image/hom.jpg" Border= "0" width = "70" height "30"/></a></li>
-      <li><a href="biodata.html"><img src = "image/bio.jpg" Border= "0" width = "70" height "30"</a></li>
-       <li><a href="form.html"><img src = "image/daf.jpg" Border= "0" width = "70" height "30"</a></li>
-       <li><a href="thanks.html"><img src = "image/thx.jpg" Border= "0" width = "70" height "30"</a></li>
-	  </ul><br>
+      <li><a href="index.html">Home<img src = 'image/hom.jpg' Border= "0" width = "80" height "30"/></a></li>
+      <li><a href="biodata.html">Biodata Penulis</a></li>
+      <li><a href="form.html">Buat Lamaran</a></li>
+	  <li><a href="thanks.html">Ucapan Terimakasih</a></li>
+	  <br>
 	  <h3>Video yang kusukai</h3>
 	  <video width="250" height="200" controls>
       <source src="dash.mp4" type="video/mp4">
-      </video><br>
+      </video>
+	  <br>
 	  <h3>Salah satu Video Youtube Saya</h3>
 	  <iframe width="250" height="200" src="https://www.youtube.com/embed/Y6jaVAECE_0" frameborder="0"
  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <br>
  <h3 style="font-family:Monotype Corsiva;">Biodata Pengunjung Diisi ya:</h3>
 <form><pre>
-nama        :<input type="text"name="phone"rows="1" cols="10"><br>
-Perusahaan  :<input type="text"name="secret"rows="1" cols="10"><br>
-telp/e-mail :<input type="text"name="phone"rows="1" cols="10">
+nama        :<input type="text"name="phone"size="30"max length="30"><br>
+Perusahaan  :<input type="text"name="secret"-word size="30"max length="30"><br>
+telp/e-mail :<input type="text"name="phone"size="30"max length="30"
 </pre></form>
-<input type="submit" value="Submit">
-    </ul>
+<input type="submit" value="Submit"> <input type="reset" value="Reset">
+</ul>
   </nav>
+  
   <article>
   
 <center>
 <img src = "image/oyen.jpg"
-alt = "image/oyen.jpg" width = "200" height "200"/>
+alt = "image/oyen.jpg" width = "350" height "200"/>
 </center>
 
 <pre><i> <h4>
-1. Nama      : Rika Hariyanti<br> 
-2. NIM       : D1041171009<br>
-3. TTL       : Binjai Hulu, 29-09-1999<br>
-4. Gender    : Perempuan<br>
-5. Hobby     : bernyanyi,membaca<br>
-6. Alamat    : Serdam Asri, NO.A1<br>
-7. NO HP     : 085350625349<br>
-8. Organisasi:
-   - Pramuka 					
-   - OSIS  
-   - HMI    
-9. Pendidikan:
-   - SDN.01 Binjai Hulu
-   - SMPN.01 Binjai Hulu
-   - SMKS Muhammadiyah Sintang
-10. Favorit   :
-   - makanan : ayam goreng 
-   - minuman : rasa cokelat
-   - film    : Captain Marvel
-   - lagu    : YUI-love & truth 
-   <audio controls><source src="yui.mp3" type="audio/mpeg"></audio> 			
+1. Nama       : Rika Hariyanti<br> 
+2. NIM        : D1041171009<br>
+3. TTL        : Binjai Hulu, 29-09-1999<br>
+4. Gender     : Perempuan<br>
+5. Hobby      : Eksperimen makanan,bernyanyi,membaca<br>
+6. Alamat     : Sungai Raya Dalam Asri, NO.A1<br>
+7. NO HP      : 085350625349<br>
+8. Organisasi :
+		- Pramuka : Siaga aktif
+		            Penggalang Terap
+		            Penegak Laksana
+		            Pradana Putri penegak
+					
+		- OSIS    : (Bidang Humas, Bendahara)
+		- HMI     : (Bendahara Umum)
+9. Pendidikan :
+		- SDN.01 Binjai Hulu
+		- SMPN.01 Binjai Hulu
+		- SMKS Muhammadiyah Sintang
+10. Favorit    :
+	        - makanan    : ayam goreng 
+	        - minuman    : rasa cokelat
+	        - film       : Captain Marvel
+	        - komik Apps : Webtoon, Mangatoon, Webcomics,Ciayo
+	        - buku       : Novel Ther-Melian Academy all series	
+	        - lagu       : YUI-love & truth 
+			       <audio controls><source src="yui.mp3" type="audio/mpeg"></audio> 			
 </h4> </i> </pre>
+
+
 <center><pre>
+
   </article>
 </section>
-
 <footer>
   <p>Media Sosial : </p>
   <a href = "https://www.youtube.com/channel/UCx26MnLsnsFPjJpVXHcn3jw"> <i> Youtube </i> </a><br></center>
   <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display Date and Time.</button>
+
 <p id="demo"></p>
 
 </footer>
-</body>	  
+
+</body>
 </html>
